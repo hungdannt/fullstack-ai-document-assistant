@@ -1,13 +1,16 @@
 # 🧠 A Full Stack AI Document Assistant with Next.js and LangChain
+The application allows users to upload documents and interact with them through a chat interface, leveraging AI to provide insightful responses.
 
-This project demonstrates how to create a full-stack AI-powered document assistant using **Next.js** and **LangChain**. The application allows users to upload documents and interact with them through a chat interface, leveraging AI to provide insightful responses.
+![Demo](https://raw.githubusercontent.com/hungdannt/fullstack-ai-document-assistant/refs/heads/master/1.png)  
+![Demo](https://raw.githubusercontent.com/hungdannt/fullstack-ai-document-assistant/refs/heads/master/2.png)  
 
-## 🚀 Features
+## 🔥 Key Features  
 
-- **📄 Document Upload**: Users can upload various document formats for analysis.
-- **💬 AI-Powered Chat**: Engage in conversations with the AI to extract information from the uploaded documents.
-- **⚡ Fast and Responsive**: Built with Next.js for optimal performance and user experience.
-- **🔗 LangChain Integration**: Utilizes LangChain for advanced language processing capabilities.
+- **📄 PDF Document Upload & Processing**: Easily upload and parse PDF documents for analysis.  
+- **💬 Interactive AI Chat Interface**: Engage with AI to extract information from your documents effortlessly.  
+- **🔍 Semantic Search with Pinecone**: Quickly find relevant information using advanced semantic search capabilities.  
+- **⚡ Real-time Document Summaries**: Get instant summaries for uploaded documents.  
+- **🎨 Responsive Design + Dark Mode**: A modern UI/UX with seamless responsiveness and a dark mode toggle.  
 
 ## 🛠️ Technologies Used
 
