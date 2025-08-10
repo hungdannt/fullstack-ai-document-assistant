@@ -25,7 +25,7 @@ export function DocumentHistory({
           {documents.map((doc) => (
             <div
               key={doc.id}
-              className={`p-3 rounded-lg mb-2 transition-colors ${
+              className={`p-3 rounded-lg mb-4 transition-colors ${
                 currentId === doc.id ? "bg-primary/10" : "hover:bg-primary/5"
               }`}
             >

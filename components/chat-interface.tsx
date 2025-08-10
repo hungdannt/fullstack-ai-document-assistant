@@ -31,7 +31,6 @@ export function ChatInterface({
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState<string>("");
 
-  //Load chat history when current document changes
   useEffect(() => {
     if (currentDocument?.id) {
       const history = getChatHistory(currentDocument.id);
