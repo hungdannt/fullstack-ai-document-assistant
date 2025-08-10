@@ -15,7 +15,7 @@ export function DocumentHistory({
 }: DocumentHistoryProps) {
   return (
     <Card className="p-4">
-      <h2 className="text-lg font-semibold mb-4">Document History</h2>
+      <h2 className="text-lg font-semibold mb-5">Document History</h2>
       {documents.length === 0 ? (
         <p className="text-sm text-muted-foreground text-center py-4">
           No documents uploaded yet.
@@ -25,7 +25,7 @@ export function DocumentHistory({
           {documents.map((doc) => (
             <div
               key={doc.id}
-              className={`p-3 rounded-lg mb-4 transition-colors ${
+              className={`p-3 rounded-lg mb-5 transition-colors ${
                 currentId === doc.id ? "bg-primary/10" : "hover:bg-primary/5"
               }`}
             >
